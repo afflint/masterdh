@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "vatican"
+version = "0.1.0"
+description = "Indexing example on Vatican documents"
+authors = ["Alfio Ferrara <alfio.ferrara@unimi.it>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+numpy = "^1.25.0"
+pandas = "^2.0.3"
+spacy = "^3.5.4"
+pymongo = "^4.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
